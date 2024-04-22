@@ -2,7 +2,7 @@ import Cooks from "./Cooks";
 
 const Menu = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Cooks />
             <Cooks />
             <Cooks />

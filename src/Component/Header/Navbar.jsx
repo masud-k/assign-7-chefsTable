@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
@@ -27,10 +28,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <label className="input input-bordered flex items-center gap-2">
-                        <input type="text" className="grow" placeholder="Search" />
+                    <label className="border-2 rounded-xl flex items-center p-2 ">
+                    <FontAwesomeIcon icon={faMagnifyingGlass}/> <input type="text" className="grow ml-2" placeholder="Search" />
                     </label>
-                    <a className="btn">Button</a>
+                    <a className="btn btn-accent bg-green-600 rounded-full p-4 ml-3"><FontAwesomeIcon icon={faUser} /></a>
                 </div>
             </div>
         </div>
