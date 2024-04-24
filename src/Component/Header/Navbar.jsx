@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <label className="border-2 rounded-xl flex items-center p-2 ">
-                    <FontAwesomeIcon icon={faMagnifyingGlass}/> <input type="text" className="grow ml-2" placeholder="Search" />
+                        <FontAwesomeIcon icon={faMagnifyingGlass} /> <input type="text" className="grow ml-2" placeholder="Search" />
                     </label>
                     <a className="btn btn-accent bg-green-600 rounded-full p-4 ml-3"><FontAwesomeIcon icon={faUser} /></a>
                 </div>

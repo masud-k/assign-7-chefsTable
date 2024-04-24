@@ -2,8 +2,8 @@
 
 const Cooks = () => {
     return (
-        <div>
-            <h3>Cook</h3>
+        <div className="">
+            <h3>Cooking Items</h3>
         </div>
     );
 };

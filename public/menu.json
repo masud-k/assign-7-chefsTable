@@ -1,0 +1,131 @@
+[
+    {
+      "recipe_id": "001",
+      "recipe_name": "Classic Beef Burger",
+      "short_description": "Juicy beef patty topped with fresh vegetables and cheese in a toasted bun",
+      "ingredients": [
+        "200g ground beef",
+        "1 burger bun",
+        "1 tomato, sliced",
+        "1 lettuce leaf",
+        "2 slices of cheese",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "20 min",
+      "calories": "500 calories",
+      "recipe_image": "classic_beef_burger.jpg"
+    },
+    {
+      "recipe_id": "002",
+      "recipe_name": "Grilled Chicken Salad",
+      "short_description": "Grilled chicken breast served over a bed of mixed greens with a tangy vinaigrette",
+      "ingredients": [
+        "300g chicken breast",
+        "100g mixed greens",
+        "1 cucumber, sliced",
+        "1 bell pepper, diced",
+        "50g feta cheese",
+        "2 tbsp balsamic vinaigrette"
+      ],
+      "preparing_time": "25 min",
+      "calories": "350 calories",
+      "recipe_image": "grilled_chicken_salad.jpg"
+    },
+    {
+      "recipe_id": "003",
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "Colorful medley of fresh vegetables stir-fried to perfection",
+      "ingredients": [
+        "250g broccoli florets",
+        "200g carrots, sliced",
+        "150g bell peppers, julienned",
+        "100g snow peas",
+        "3 cloves garlic, minced",
+        "2 tbsp soy sauce"
+      ],
+      "preparing_time": "15 min",
+      "calories": "200 calories",
+      "recipe_image": "vegetable_stir_fry.jpg"
+    },
+    {
+      "recipe_id": "004",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with a creamy sauce made from eggs, cheese, and bacon",
+      "ingredients": [
+        "300g spaghetti",
+        "100g bacon, diced",
+        "2 eggs",
+        "50g grated Parmesan cheese",
+        "2 cloves garlic, minced",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "30 min",
+      "calories": "550 calories",
+      "recipe_image": "spaghetti_carbonara.jpg"
+    },
+    {
+      "recipe_id": "005",
+      "recipe_name": "Vegetarian Chili",
+      "short_description": "Hearty and flavorful chili made with beans, vegetables, and spices",
+      "ingredients": [
+        "400g canned kidney beans",
+        "200g canned diced tomatoes",
+        "1 onion, chopped",
+        "2 bell peppers, diced",
+        "2 cloves garlic, minced",
+        "2 tbsp chili powder"
+      ],
+      "preparing_time": "40 min",
+      "calories": "300 calories",
+      "recipe_image": "vegetarian_chili.jpg"
+    },
+    {
+      "recipe_id": "006",
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy and indulgent Italian rice dish cooked with flavorful mushrooms",
+      "ingredients": [
+        "300g Arborio rice",
+        "200g mushrooms, sliced",
+        "1 onion, diced",
+        "1 liter vegetable broth",
+        "50g grated Parmesan cheese",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "35 min",
+      "calories": "400 calories",
+      "recipe_image": "mushroom_risotto.jpg"
+    },
+    {
+      "recipe_id": "007",
+      "recipe_name": "Honey Garlic Shrimp",
+      "short_description": "Sweet and savory shrimp cooked in a sticky honey garlic sauce",
+      "ingredients": [
+        "400g shrimp, peeled and deveined",
+        "3 cloves garlic, minced",
+        "2 tbsp honey",
+        "1 tbsp soy sauce",
+        "1 tsp ginger, grated",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "20 min",
+      "calories": "250 calories",
+      "recipe_image": "honey_garlic_shrimp.jpg"
+    },
+    {
+      "recipe_id": "008",
+      "recipe_name": "Caprese Salad",
+      "short_description": "Refreshing salad made with ripe tomatoes, fresh mozzarella, and basil leaves",
+      "ingredients": [
+        "2 large tomatoes, sliced",
+        "200g fresh mozzarella cheese, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp balsamic glaze",
+        "Salt and pepper to taste",
+        "1 tbsp olive oil"
+      ],
+      "preparing_time": "15 min",
+      "calories": "200 calories",
+      "recipe_image": "caprese_salad.jpg"
+    }
+  ]
+  
