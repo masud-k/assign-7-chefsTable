@@ -11,9 +11,9 @@
         "2 slices of cheese",
         "Salt and pepper to taste"
       ],
-      "preparing_time": "20 min",
-      "calories": "500 calories",
-      "recipe_image": "classic_beef_burger.jpg"
+      "preparing_time": "20",
+      "calories": "500",
+      "recipe_image": "https://i.pinimg.com/564x/b8/b2/2b/b8b22bb57bd8550ad59a1b63b9f81d44.jpg"
     },
     {
       "recipe_id": "002",
@@ -27,9 +27,9 @@
         "50g feta cheese",
         "2 tbsp balsamic vinaigrette"
       ],
-      "preparing_time": "25 min",
-      "calories": "350 calories",
-      "recipe_image": "grilled_chicken_salad.jpg"
+      "preparing_time": "25",
+      "calories": "350 ",
+      "recipe_image": "https://i.pinimg.com/564x/8e/11/c3/8e11c3b42f06dc4b8d45521044159da2.jpg"
     },
     {
       "recipe_id": "003",
@@ -43,9 +43,9 @@
         "3 cloves garlic, minced",
         "2 tbsp soy sauce"
       ],
-      "preparing_time": "15 min",
-      "calories": "200 calories",
-      "recipe_image": "vegetable_stir_fry.jpg"
+      "preparing_time": "15",
+      "calories": "200 ",
+      "recipe_image": "https://i.pinimg.com/564x/9a/f6/50/9af650df61443471f0170cc7a15e81af.jpg"
     },
     {
       "recipe_id": "004",
@@ -59,9 +59,9 @@
         "2 cloves garlic, minced",
         "Salt and pepper to taste"
       ],
-      "preparing_time": "30 min",
-      "calories": "550 calories",
-      "recipe_image": "spaghetti_carbonara.jpg"
+      "preparing_time": "30",
+      "calories": "550 ",
+      "recipe_image": "https://i.pinimg.com/564x/d5/4c/25/d54c25a53f347e55f902af0e0b54f59f.jpg"
     },
     {
       "recipe_id": "005",
@@ -75,9 +75,9 @@
         "2 cloves garlic, minced",
         "2 tbsp chili powder"
       ],
-      "preparing_time": "40 min",
-      "calories": "300 calories",
-      "recipe_image": "vegetarian_chili.jpg"
+      "preparing_time": "40",
+      "calories": "300 ",
+      "recipe_image": "https://i.pinimg.com/564x/51/4f/88/514f88c06126fa4c777043c76e0581e8.jpg"
     },
     {
       "recipe_id": "006",
@@ -91,9 +91,9 @@
         "50g grated Parmesan cheese",
         "2 tbsp olive oil"
       ],
-      "preparing_time": "35 min",
-      "calories": "400 calories",
-      "recipe_image": "mushroom_risotto.jpg"
+      "preparing_time": "35",
+      "calories": "400 ",
+      "recipe_image": "https://i.pinimg.com/564x/51/4f/88/514f88c06126fa4c777043c76e0581e8.jpg"
     },
     {
       "recipe_id": "007",
@@ -107,9 +107,9 @@
         "1 tsp ginger, grated",
         "2 tbsp olive oil"
       ],
-      "preparing_time": "20 min",
-      "calories": "250 calories",
-      "recipe_image": "honey_garlic_shrimp.jpg"
+      "preparing_time": "20",
+      "calories": "250 ",
+      "recipe_image": "https://i.pinimg.com/564x/bf/04/ce/bf04ce0b402ec359dbfe4405a2a9b551.jpg"
     },
     {
       "recipe_id": "008",
@@ -123,9 +123,9 @@
         "Salt and pepper to taste",
         "1 tbsp olive oil"
       ],
-      "preparing_time": "15 min",
-      "calories": "200 calories",
-      "recipe_image": "caprese_salad.jpg"
+      "preparing_time": "15",
+      "calories": "200 ",
+      "recipe_image": "https://i.pinimg.com/564x/bf/04/ce/bf04ce0b402ec359dbfe4405a2a9b551.jpg"
     }
   ]
   

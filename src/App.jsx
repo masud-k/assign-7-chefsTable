@@ -3,9 +3,19 @@ import Menus from "./Component/Menus"
 import Cooks from "./Component/Cooks"
 import './App.css'
 import Image from "./Component/Image/Banner.jpg"
+import { useState } from "react"
 
 function App() {
 
+  const [carts, setCarts] = useState([]);
+
+  const handleMenu = menu => {
+    const alreadyExist = carts.find(cart => cart.id = menu.id);
+    if (!alreadyExist) {
+      setCarts([...carts, menu]);
+    }
+    
+  }
   return (
     <>
       <div>
@@ -25,12 +35,12 @@ function App() {
         <h1>Our Recipes</h1>
         <p>Subscribe to our Newsletter for weekly recipe inspiration as well as seasonal menu tips and resources. Every Friday I launch a new family friendly recipe that even the pickiest eaters will eat.  </p>
       </div>
-      <div className="grid grid-cols-12">
-        <div className="col-span-9">
-          <Menus/>
+      <div className="card md:grid grid-cols-12 bg-base-300">
+        <div className="col-span-8 m-4">
+          <Menus handleMenu={handleMenu} />
         </div>
-        <div className="col-span-3">
-          <Cooks/>
+        <div className="col-span-4">
+          <Cooks carts={carts} />
         </div>
       </div>
     </>

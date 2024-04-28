@@ -1,9 +1,9 @@
-
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 import Menu from "./Menu";
 
 
-const Menus = () => {
+const Menus = ({handleMenu}) => {
     const [menus, setMenus] = useState([]);
 
     useEffect( () => {
@@ -15,10 +15,17 @@ const Menus = () => {
     return (
         <div className="grid grid-cols-2 gap-4">
             {
-                menus.map(menu => <Menu key={menu.id} menu={menu}></Menu>)
+                menus.map((menu, idx) => <Menu 
+                    key={idx} menu={menu}
+                    handleMenu={handleMenu}
+                    ></Menu>)
             }
         </div>
     );
+};
+
+Menus.propTypes = {
+    handleMenu: PropTypes.func.isRequired
 };
 
 export default Menus;

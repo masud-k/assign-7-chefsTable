@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faMagnifyingGlass, } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
