@@ -16,7 +16,7 @@ const Cooks = ({ carts }) => {
                 {carts.map((cart) => (
                     <Cook key={cart.id} cart={cart} />
                 ))}
-                
+
             </div>
 
             <div>

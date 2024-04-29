@@ -4,17 +4,34 @@ import Cooks from "./Component/Cooks"
 import './App.css'
 import Image from "./Component/Image/Banner.jpg"
 import { useState } from "react"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
   const [carts, setCarts] = useState([]);
 
   const handleMenu = menu => {
-    const alreadyExist = carts.find(cart => cart.id = menu.id);
+    console.log(carts)
+    console.log(menu)
+    const alreadyExist = carts.find(cart => cart.recipe_id == menu.recipe_id);
     if (!alreadyExist) {
       setCarts([...carts, menu]);
     }
-    
+    else {
+      toast.error("You already have this recipe in your cart", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+    }
+
+
   }
   return (
     <>
@@ -42,6 +59,7 @@ function App() {
         <div className="col-span-4">
           <Cooks carts={carts} />
         </div>
+        <ToastContainer />
       </div>
     </>
   )
